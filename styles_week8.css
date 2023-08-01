@@ -1,93 +1,116 @@
+/*CSS file for all three tabs/file*/
+/*Zeke Isaac, Promineo Tech 2023*/
+
+/*styling color for the background for all three tabs*/
 body {
     background-color:rgb(132, 212, 212);
 }
 
+/*styling color for all h1 headings*/
 h1 {
     color: black; 
 }
 
+/*pushing the tab menu to the right of screen*/
 .menu-options {
     float: right;
 }
 
+/*styling background color for all div sections*/
 div {
     background-color: black;
 }
 
+/*styling color for tab menu options or anything under the a tag links*/
 div, a {
     color: whitesmoke;
 }
 
+/*hover style targeting the the a tag, which in this case is the menu options*/
 div, a:hover { 
     color: grey;
 }
 
+/*class to add shadow to any tag it's applied to*/
 .shadow-text {
     text-shadow: grey 1px 1px;
 }
 
+/*class to italicize any text this is applied to*/
 .italic-text {
     font-style: italic;
 }
 
+/*class to move any text to the right*/
 .right-text {
     text-align: right;
 }
 
+/*class to move any text to the left*/
 .left-text {
     text-align: left;
 }
 
+/*tag ID to change text color*/
 #hov {
     color: black;
 }
 
+/*tag ID to change color when hovering over*/
 #hov:hover {
     color:blueviolet;
 }
 
+/*tag ID for borders*/
 #large-paragraph {
     border-style: solid;
     border-color: rgb(169, 196, 196);
 }
 
+/*class styling list items*/
 .every-even li:nth-child(even) {
     background-color: grey;
 }
 
+/*styling table and limiting the width*/
 table {
     border-collapse: collapse;
     width: 40%;
 }
 
+/*styling table headers and data*/
 th, td {
     padding: 8px;
     text-align: left;
     border-bottom: solid black;
 }
 
+/*styling even line items*/
 tr:nth-child(even) {
     background-color: rgb(185, 185, 185);
 }
 
+/*class to style section like a table*/
+.row {
+    display: table;
+    width: 100%
+}
 
+/*class to style columns*/
 .column {
     float:left;
     flex: 50%;
     padding: 0 8px;
 }
 
+/*class to style image within column*/
 .column img {
     margin-top: 17px;
     margin-bottom: 11px;
     float: right;
 }
 
-.row {
-    display: table;
-    width: 100%
-}
-
+/*class to color text*/
 .white-text {
     color: white;
 }
