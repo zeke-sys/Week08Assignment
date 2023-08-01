@@ -1,0 +1,93 @@
+body {
+    background-color:rgb(132, 212, 212);
+}
+
+h1 {
+    color: black; 
+}
+
+.menu-options {
+    float: right;
+}
+
+div {
+    background-color: black;
+}
+
+div, a {
+    color: whitesmoke;
+}
+
+div, a:hover { 
+    color: grey;
+}
+
+.shadow-text {
+    text-shadow: grey 1px 1px;
+}
+
+.italic-text {
+    font-style: italic;
+}
+
+.right-text {
+    text-align: right;
+}
+
+.left-text {
+    text-align: left;
+}
+
+#hov {
+    color: black;
+}
+
+#hov:hover {
+    color:blueviolet;
+}
+
+#large-paragraph {
+    border-style: solid;
+    border-color: rgb(169, 196, 196);
+}
+
+.every-even li:nth-child(even) {
+    background-color: grey;
+}
+
+table {
+    border-collapse: collapse;
+    width: 40%;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: solid black;
+}
+
+tr:nth-child(even) {
+    background-color: rgb(185, 185, 185);
+}
+
+
+.column {
+    float:left;
+    flex: 50%;
+    padding: 0 8px;
+}
+
+.column img {
+    margin-top: 17px;
+    margin-bottom: 11px;
+    float: right;
+}
+
+.row {
+    display: table;
+    width: 100%
+}
+
+.white-text {
+    color: white;
+}
